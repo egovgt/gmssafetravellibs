@@ -8,6 +8,7 @@ android {
     defaultConfig {
         applicationId "com.gamatechno.egov.safetravellibrary"
         minSdkVersion 16
+        multiDexEnabled true
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -30,4 +31,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation project(':ggfw')
     implementation project(':ggfw-ui')
+    implementation 'com.android.support:multidex:1.0.2'
 }
